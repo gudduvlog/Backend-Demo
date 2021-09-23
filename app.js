@@ -10,6 +10,10 @@ app.get("/users", (req, res) => {
   res.send("This is users endpoint");
 });
 
+app.get("/todos", (req, res) => {
+  res.send("New endpoint");
+});
+
 app.listen("3000", () => {
   console.log("App is running ...");
 });
